@@ -82,13 +82,15 @@ body {
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
 }
+.course-container:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
 .course-img {
   width: 225px;
 }
-/* .course-info {
-  padding: 10px;
-} */
 
 .rating {
   margin-top: 15px;
@@ -115,4 +117,15 @@ footer {
   text-align: center;
   margin-bottom: 10px;
   color: #777;
+}
+
+@media only screen and (max-width: 662px) {
+  .top-players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .top-players-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

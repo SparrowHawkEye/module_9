@@ -1,16 +1,39 @@
 .nav-container {
   background-color: #562eff;
+  margin-bottom: 36px;
 }
 .nav-item {
   max-width: 870px;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+.logo-items {
+  color: #fff;
+}
+.logo {
+  padding-right: 15px;
 }
 .nav-menus {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
+  gap: 36px;
 }
-.logo {
+.links {
+  display: inline-block;
+  font-size: 24px;
   color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+.links:hover {
+  /* background-color: #fff; */
+  transform: translateY(10%);
+  border-bottom: 1px solid #fff;
+}
+.profile-image {
+  width: 50px;
 }
