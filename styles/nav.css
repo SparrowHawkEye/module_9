@@ -1,0 +1,16 @@
+.nav-container {
+  background-color: #562eff;
+}
+.nav-item {
+  max-width: 870px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.nav-menus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: #fff;
+}
