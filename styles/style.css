@@ -119,7 +119,7 @@ footer {
   color: #777;
 }
 
-@media only screen and (max-width: 662px) {
+@media only screen and (max-width: 992px) {
   .top-players {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -127,5 +127,24 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .article-container {
+    grid-template-columns: 1fr;
+  }
+  .courses {
+    flex-direction: column;
+  }
+  .course-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .course-img {
+    width: 100%;
+  }
+  .course-info {
+    padding-top: 20px;
+    text-align: center;
   }
 }
